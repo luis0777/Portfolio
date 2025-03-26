@@ -32,7 +32,7 @@ export function Skills() {
           <Image src="/git.png" alt="git" width={150} height={150} />
         </div>
         <div className="">
-          <Image src="/github.png" alt="github" width={150} height={150} />
+          <Image src="/github.jpg" alt="github" width={150} height={150} />
         </div>
       </div>
     </section>
