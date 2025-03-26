@@ -8,6 +8,7 @@ import {
 import { Github, Instagram, Linkedin, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import React from "react";
 
 export function Inicio() {
   return (
@@ -87,7 +88,7 @@ export function Inicio() {
             <h2 className="md:text-2xl font-bold">
               I'm a
               <span className="text-cyan-400 drop-shadow-[0_0_0.5rem_#00B4D8] ml-2">
-                TRAINNE FULL STACK
+                FULL STACK DEVELOPER
               </span>
             </h2>
 

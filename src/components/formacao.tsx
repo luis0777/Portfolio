@@ -18,7 +18,7 @@ export function Formacao() {
             <h3 className="text-xl font-semibold">2022</h3>
             <p className="text-gray-600">UNIP</p>
             <span className="text-sm text-gray-400">
-              Formado em Analise e Desenvolvimento de Sistema pela Universicade
+              Formado em Analise e Desenvolvimento de Sistema pela Universidade
               Paulista
             </span>
           </div>
