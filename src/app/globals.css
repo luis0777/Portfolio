@@ -2,7 +2,8 @@
 
 :root {
   --background: #080808;
-  --foreground: oklch(0.789 0.154 211.53);
+  /* --foreground: oklch(0.789 0.154 211.53); */
+  --foreground: #fff;
   --text-color: #fff;
   --main-color: #00ffee;
 }
