@@ -1,6 +1,6 @@
 import {Inicio} from "@/components/inicio";
 import {Formacao} from "@/components/formacao";
-import {Skills} from "@/components/skills";
+import {Projetos} from "@/components/projetos";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <main className="space-y-32 md:space-y-10">
       <Inicio />
       <Formacao />
-      <Skills />
+      <Projetos />
       <Footer />
     </main>
   );

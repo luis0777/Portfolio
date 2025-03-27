@@ -15,7 +15,7 @@ export function Formacao() {
             <div className="absolute -left-0 w-6 h-6  group-hover:hidden  ">
               <MoveRight className="text-cyan-400 drop-shadow-[0_0_0.5rem_#00B4D8] " />
             </div>
-            <h3 className="text-xl font-semibold">2022</h3>
+            <h3 className="text-xl font-semibold">2024</h3>
             <p className="text-gray-600">UNIP</p>
             <span className="text-sm text-gray-400">
               Formado em Analise e Desenvolvimento de Sistema pela Universidade

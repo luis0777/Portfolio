@@ -13,7 +13,7 @@ import React from "react";
 export function Inicio() {
   return (
     <div className="flex flex-col ">
-      <header className="text-white flex justify-between p-4 md:p-8 fixed top-0 left-0 right-0  bg-[#121212] z-10">
+      <header className="text-white flex justify-between p-4 md:p-8 fixed top-0 left-0 right-0  bg-[#080808] z-10">
         <a href="#" className="text-2xl font-bold tracking-wide">
           Luís
           <span className="text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
@@ -37,8 +37,8 @@ export function Inicio() {
                 </a>
               </DropdownMenuItem>
               <DropdownMenuItem className="hover:border-b-2 text-white hover:text-cyan-400">
-                <a href="#skills" className="text-white hover:text-cyan-400">
-                  Skilss
+                <a href="#projetos" className="text-white hover:text-cyan-400">
+                  Projetos
                 </a>
               </DropdownMenuItem>
               <DropdownMenuItem className="hover:border-b-2 text-white hover:text-cyan-400">
@@ -62,10 +62,10 @@ export function Inicio() {
             Formação
           </a>
           <a
-            href="#skills"
+            href="#projetos"
             className="hover:text-cyan-400 hover:border-b-4  duration-100 hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
           >
-            Skills
+            Projetos
           </a>
           <a
             href="#"
@@ -139,7 +139,7 @@ export function Inicio() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-cyan-400 text-black shadow-cyan-400 border-cyan-400 border-2 cursor-pointer hover:bg-transparent hover:text-cyan-400  shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]">
+              <Button className="bg-cyan-400 text-black shadow-cyan-400 border-cyan-400 border-2 cursor-pointer hover:bg-transparent font-bold hover:text-cyan-400  shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]">
                 Baixar Curriculo
               </Button>
             </a>

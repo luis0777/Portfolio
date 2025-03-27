@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export function Skills() {
+export function Projetos() {
   return (
-    <section id="skills" className="px-8">
+    <section id="projetos" className="px-8">
       <div className="flex justify-center mb-5">
         <h1 className="text-4xl font-bold text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
-          Skills
+          Projetos
         </h1>
       </div>
 
