@@ -1,0 +1,101 @@
+{
+  "Inicio": {
+    "sobre": "About",
+    "formacao": "Education",
+    "projetos": "Projects",
+    "greeting": "HI, It's",
+    "name": "Luís Felipe",
+    "role": "FULL STACK",
+    "iAm": "I'm a",
+    "description1": "💻 I'm a developer passionate about technology and innovation! At 21, I graduated in Systems Analysis and Development from UNIP and work as a Full Stack Trainee.",
+    "description2": "🚀 My professional journey focuses on software development, exploring both back-end and front-end. I constantly seek to improve my skills and learn new technologies to deliver efficient and high-impact solutions.",
+    "description3": "📈 I'm always looking for challenges that allow me to grow professionally and contribute to innovative projects.",
+    "downloadCV": "Download CV",
+    "profileAlt": "Profile"
+  },
+  "Formacao": {
+    "formacao": "Education",
+    "ads": "💻 Graduated in Systems Analysis and Development from Universidade Paulista"
+  },
+  "Projetos": {
+    "projetos": "Projects",
+    "description": "Select a card to view the study projects I've worked on"
+  },
+  "ProjetosJava": {
+    "title": "Java Projects",
+    "objetivo": "Objective:",
+    "button": "Repository",
+    "api_gerenciamento": {
+      "title": "MANAGEMENT API",
+      "description": "Develop a REST API to manage users, orders, and products with full CRUD functionalities and secure authentication, using a modular and scalable architecture."
+    },
+    "api_tarefas": {
+      "title": "TASK LIST API",
+      "description": "Develop a REST API for task management, allowing full CRUD operations, searches by priority, and completion status, with a modular and scalable architecture."
+    },
+    "api_farmacia": {
+      "title": "PHARMACY ITEM MANAGEMENT API",
+      "description": "Develop a REST API to manage pharmacy items, offering full CRUD functionalities and ensuring an organized and scalable architecture."
+    },
+    "sistema_bancario": {
+      "title": "JAVA BANKING SYSTEM",
+      "description": "The goal of this system is to implement a simple bank account management solution, allowing users to create accounts, log in, withdraw funds, and check their balance."
+    }
+  },
+  "ProjetosCsharp": {
+    "title": "C# Projects",
+    "objetivo": "Objective:",
+    "button": "Repository",
+    "fazendaUrbanaPoc": {
+      "title": "URBAN FARM POC",
+      "objective": "Objective:",
+      "description": "An application to manage the operations of an urban farm, allowing control of customers, suppliers, products, and sales."
+    },
+    "apiLivros": {
+      "title": "BOOK & AUTHOR MANAGEMENT API",
+      "objective": "Objective:",
+      "description": "Create an API to manage books and authors, allowing operations like creation, editing, deletion, and search, focusing on efficiency and scalability."
+    },
+    "apiFazendaUrbana": {
+      "title": "URBAN FARM MANAGEMENT API",
+      "objective": "Objective:",
+      "description": "Develop an API for CRUD operations in an urban farm, including customer, employee, supplier, product, and sales management."
+    },
+    "fazendaUrbanaWindows": {
+      "title": "URBAN FARM PITAYA WINDOWS FORMS",
+      "objective": "Objective:",
+      "description": "Develop an application for registration and management operations in an urban farm. The system covers CRUD functionalities for customers, employees, suppliers, products, and sales."
+    }
+  },
+  "ProjetosC": {
+    "title": "C Projects",
+    "objetivo": "Objective:",
+    "button": "Repository",
+    "sistemaGerenciamento": {
+      "title": "MULTI-THEMATIC MUSEUM MANAGEMENT SYSTEM",
+      "description": "Develop a ticket purchasing system for a multi-thematic museum, highlighting the life and career of the legendary player Pelé."
+    }
+  },
+  "ProjetosReact": {
+    "title": "React Projects",
+    "objetivo": "Objective:",
+    "button": "Repository",
+    "petShop": {
+      "title": "PET SHOP",
+      "description": "A pet shop website project built with React."
+    }
+  },
+  "ProjetosHtmlCss": {
+    "title": "HTML & CSS Projects",
+    "objetivo": "Objective:",
+    "button": "Repository",
+    "landingPizzaria": {
+      "title": "PIZZERIA LANDING PAGE",
+      "description": "A landing page project for a pizzeria."
+    },
+    "landingAcademia": {
+      "title": "GYM LANDING PAGE",
+      "description": "A landing page project for a gym."
+    }
+  }
+}
