@@ -5,16 +5,18 @@ import { ProjetoCsharp } from "./projetoCsharp";
 import { ProjetoC } from "./projetoC";
 import { ProjetoReact } from "./projetoReact";
 import { ProjetoHtmlCss } from "./projetoHtmlCss";
+import { useTranslations } from "next-intl";
 
 export function Projetos() {
+  const t = useTranslations("Projetos");
   return (
-    <section id="projetos" className="px-8 pt-24">
+    <section id="projetos" className="px-8 pt-24 md:h-[90vh]">
       <div className="flex flex-col items-center mb-5 ">
         <h1 className="text-4xl font-bold text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
-          Projetos
+          {t("projetos")}
         </h1>
         <p className="text-white">
-          Escolha o card para visualizar os projetos de estudos feitos por mim
+          {t("description")}
         </p>
       </div>
 

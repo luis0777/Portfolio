@@ -15,8 +15,10 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function ProjetoC() {
+  const t = useTranslations("ProjetosC");
   return (
     <Dialog>
       <DialogTrigger className="p-8  cursor-pointer w-full max-w-[300px] border-2 rounded-3xl border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
@@ -24,28 +26,26 @@ export function ProjetoC() {
           <Image src="/c.png" alt="java" width={130} height={300} />
         </div>
         <span className="flex justify-center text-white text-2xl font-bold">
-          Projetos em C
+          {t("title")}
         </span>
       </DialogTrigger>
       <DialogContent className="bg-[#080808] w-[340px] md:w-[600px] border-gray-500">
         <DialogHeader>
           <DialogTitle className="text-white flex justify-center">
-            Projetos em C
+            {t("title")}
           </DialogTitle>
 
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className=" hover:text-cyan-400">
-                SISTEMA DE GERENCIAMENTO DE MUSEU MULTITEMÁTICO
+              {t("sistemaGerenciamento.title")}
               </AccordionTrigger>
               <AccordionContent className="">
                 <span className="font-bold text-lg text-cyan-400 ">
-                  Objetivo:
+                  {t("objetivo")}
                 </span>
                 <p className="text-justify">
-                  Desenvolver um sistema de compra de ingressos para um museu
-                  multitemático, destacando a vida e carreira do jogador Rei
-                  Pelé.
+                {t("sistemaGerenciamento.description")}
                 </p>
                 <a
                   href="https://github.com/luis0777/PROJETO-GERENCIAMENTO-DE-MUSEU-MULTITEMATICO"
@@ -53,7 +53,8 @@ export function ProjetoC() {
                   className="w-full flex justify-center"
                 >
                   <Button className="mt-5 hover:scale-105 cursor-pointer border-cyan-400 border-2  shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]">
-                    <Github /> Repositorio
+                    <Github />
+                    {t("button")}
                   </Button>
                 </a>
               </AccordionContent>

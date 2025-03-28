@@ -1,11 +1,13 @@
 import { Hourglass, MoveRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function Formacao() {
+  const t = useTranslations("Formacao");
   return (
     <section id="formacao" className="px-8 pt-24 md:h-[50vh]">
       <div className="flex justify-center mb-5">
         <h1 className="text-4xl font-bold text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
-          Formação
+          {t("formacao")}
         </h1>
       </div>
 
@@ -18,8 +20,7 @@ export function Formacao() {
             <h3 className="text-xl font-semibold text-cyan-400">2024</h3>
             <p className="text-gray-600">UNIP</p>
             <span className="text-sm text-gray-400">
-              Formado em Analise e Desenvolvimento de Sistema pela Universidade
-              Paulista
+              {t("ads")}
             </span>
           </div>
 

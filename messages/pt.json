@@ -1,0 +1,101 @@
+{
+  "Inicio": {
+    "sobre": "Sobre",
+    "formacao": "Formação",
+    "projetos": "Projetos",
+    "greeting": "Olá, sou",
+    "name": "Luís Felipe",
+    "role": "FULL STACK ",
+    "iAm": "Eu sou",
+    "description1": "💻 Sou um desenvolvedor apaixonado por tecnologia e inovação! Com 21 anos, sou formado em Análise e Desenvolvimento de Sistemas pela UNIP e atuo como Trainee Full Stack.",
+    "description2": "🚀 Minha jornada profissional é focada no desenvolvimento de software, explorando tanto o back-end quanto o front-end. Busco constantemente aprimorar minhas habilidades e aprender novas tecnologias para entregar soluções eficientes e de alto impacto.",
+    "description3": "📈 Estou sempre em busca de desafios que me permitam crescer profissionalmente e contribuir para projetos inovadores.",
+    "downloadCV": "Baixar Curriculo",
+    "profileAlt": "Profile"
+  },
+  "Formacao": {
+    "formacao": "Formação",
+    "ads": "💻 Formado em Analise e Desenvolvimento de Sistema pela Universidade Paulista"
+  },
+  "Projetos": {
+    "projetos": "Projetos",
+    "description": "Escolha o card para visualizar os projetos de estudos feitos por mim"
+  },
+  "ProjetosJava": {
+    "title": "Projetos em Java",
+    "objetivo": "Objetivo:",
+    "button": "Repositório",
+    "api_gerenciamento": {
+      "title": "API GERENCIAMENTO",
+      "description": "Desenvolver uma API REST para gerenciar usuários, pedidos e produtos com funcionalidades completas de CRUD e autenticação segura, utilizando uma arquitetura modular e escalável."
+    },
+    "api_tarefas": {
+      "title": "API LISTA DE TAREFAS",
+      "description": "Desenvolver uma API REST para gerenciamento de tarefas, permitindo operações completas de CRUD, busca por prioridade e status de realização, com uma arquitetura modular e escalável."
+    },
+    "api_farmacia": {
+      "title": "API GERENCIAMENTO DE ITENS DE FARMÁCIA",
+      "description": "Desenvolver uma API REST para gerenciar itens de uma farmácia, oferecendo funcionalidades completas de CRUD e garantindo uma arquitetura organizada e escalável."
+    },
+    "sistema_bancario": {
+      "title": "SISTEMA BANCÁRIO JAVA",
+      "description": "O objetivo deste sistema é implementar uma solução de gerenciamento de conta bancária simples, permitindo ao usuário realizar operações de criação de conta, login, saque e consulta de saldo."
+    }
+  },
+  "ProjetosCsharp": {
+    "title": "Projetos em C#",
+    "objetivo": "Objetivo:",
+    "button": "Repositório",
+    "fazendaUrbanaPoc": {
+      "title": "FAZENDA URBANA POC",
+      "objective": "Objetivo:",
+      "description": "Uma aplicação para gerenciar as operações de uma fazenda urbana, permitindo o controle de clientes, fornecedores, produtos e vendas."
+    },
+    "apiLivros": {
+      "title": "API PARA GERENCIAMENTO DE LIVROS E AUTORES",
+      "objective": "Objetivo:",
+      "description": "Criar uma API para gerenciar livros e autores, permitindo operações como criação, edição, exclusão e busca, com foco em eficiência e escalabilidade"
+    },
+    "apiFazendaUrbana": {
+      "title": "API DE GERENCIAMENTO DE FAZENDA URBANA",
+      "objective": "Objetivo:",
+      "description": "Desenvolver uma API para operações de CRUD em uma fazenda urbana, incluindo gerenciamento de clientes, funcionários, fornecedores, produtos e vendas"
+    },
+    "fazendaUrbanaWindows": {
+      "title": "FAZENDA URBANA PITAYA WINDOWS FORMS",
+      "objective": "Objetivo:",
+      "description": "Desenvolver uma aplicação para operações de cadastro e gerenciamento em uma fazenda urbana. O sistema abrange funcionalidades de CRUD para clientes, funcionários, fornecedores, produtos e vendas."
+    }
+  },
+  "ProjetosC": {
+    "title": "Projetos em C",
+    "objetivo": "Objetivo:",
+    "button": "Repositório",
+    "sistemaGerenciamento": {
+      "title": "SISTEMA DE GERENCIAMENTO DE MUSEU MULTITEMÁTICO",
+      "description": " Desenvolver um sistema de compra de ingressos para um museu multitemático, destacando a vida e carreira do jogador Rei Pelé."
+    }
+  },
+  "ProjetosReact": {
+    "title": "Projetos em React",
+    "objetivo": "Objetivo:",
+    "button": "Repositório",
+    "petShop": {
+      "title": "PET SHOP",
+      "description": "Projeto sobre um site de petshop feito em react."
+    }
+  },
+  "ProjetosHtmlCss": {
+    "title": "Projetos em HTML e CSS",
+    "objetivo": "Objetivo:",
+    "button": "Repositório",
+    "landingPizzaria": {
+        "title": "LANDING PAGE PIZZARIA",
+        "description": "Projeto de uma landing page de uma pizzaria."
+    },
+    "landingAcademia": {
+        "title": "LANDING PAGE ACADEMIA",
+        "description": "Projeto de uma landing page de uma academia."
+    }
+  }
+}
