@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import { ProjetoJava } from "./projetoJava";
+import { ProjetoCsharp } from "./projetoCsharp";
 
 export function Projetos() {
   return (
@@ -19,26 +20,15 @@ export function Projetos() {
           Projetos
         </h1>
         <p className="text-white">
-          Escolha o card para visualizar os projetos feitos por mim
+          Escolha o card para visualizar os projetos de estudos feitos por mim
         </p>
       </div>
 
-      <div className="max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
-        {/* <Card className="cursor-pointer w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
-          <CardHeader>
-            <CardTitle>
-              <div className="">
-                <Image src="/java.png" alt="java" width={300} height={300} />
-              </div>
-            </CardTitle>
-            <CardDescription className="flex justify-center text-white text-2xl font-bold">
-              Projetos em Java
-            </CardDescription>
-          </CardHeader>
-        </Card> */}
+      <div className="max-w-[1500px] mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+        
         <ProjetoJava />
 
-        <Card className="cursor-pointer w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
+        {/* <Card className="cursor-pointer w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
           <CardHeader>
             <CardTitle>
               <div className="flex justify-center">
@@ -49,9 +39,11 @@ export function Projetos() {
               Projetos em C#
             </CardDescription>
           </CardHeader>
-        </Card>
+        </Card> */}
 
-        <Card className="cursor-pointer w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
+        <ProjetoCsharp />
+
+        <Card className="cursor-pointer w-full max-w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
           <CardHeader>
             <CardTitle>
               <div className="flex justify-center">

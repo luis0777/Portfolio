@@ -147,7 +147,7 @@ export function Inicio() {
         </div>
         <div className=" md:w-[50%]  items-center justify-center  flex mb-8 mt-8 md:mb-0 md:mt-0">
           <Image
-            src="/foto.jpg"
+            src="/fotoGhibi.png"
             alt="Profile"
             width={400}
             height={400}
