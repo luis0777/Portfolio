@@ -1,18 +1,10 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import Image from "next/image";
 import { ProjetoJava } from "./projetoJava";
 import { ProjetoCsharp } from "./projetoCsharp";
 import { ProjetoC } from "./projetoC";
 import { ProjetoReact } from "./projetoReact";
+import { ProjetoHtmlCss } from "./projetoHtmlCss";
 
 export function Projetos() {
   return (
@@ -34,6 +26,8 @@ export function Projetos() {
         <ProjetoC />
 
         <ProjetoReact />
+
+        <ProjetoHtmlCss />
       </div>
     </section>
   );

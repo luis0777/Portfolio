@@ -14,9 +14,12 @@ export function Inicio() {
   return (
     <div className="flex flex-col ">
       <header className="text-white flex justify-between p-4 md:p-8 fixed top-0 left-0 right-0  bg-[#080808] z-10">
-        <a href="#" className="text-2xl font-bold tracking-wide">
+        <a
+          href="#"
+          className="text-2xl font-bold tracking-wide hover:scale-120 duration-100"
+        >
           Luís
-          <span className="text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
+          <span className="text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8] hover:drop-shadow-[0_0_0.5rem_#00B4D8]">
             Felipe
           </span>
         </a>
@@ -41,9 +44,9 @@ export function Inicio() {
                   Projetos
                 </a>
               </DropdownMenuItem>
-              <DropdownMenuItem className="hover:border-b-2 text-white hover:text-cyan-400">
+              {/* <DropdownMenuItem className="hover:border-b-2 text-white hover:text-cyan-400">
                 Subscription
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
@@ -51,33 +54,33 @@ export function Inicio() {
         <nav className="md:flex gap-8 hidden font-bold">
           <a
             href="#"
-            className="hover:text-cyan-400 hover:border-b-4 duration-100   hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
+            className="hover:scale-120  hover:text-cyan-400 hover:border-b-4 duration-100   hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
           >
             Sobre
           </a>
           <a
             href="#formacao"
-            className="hover:text-cyan-400 hover:border-b-4 duration-100  hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
+            className="hover:scale-120  hover:text-cyan-400 hover:border-b-4 duration-100  hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
           >
             Formação
           </a>
           <a
             href="#projetos"
-            className="hover:text-cyan-400 hover:border-b-4  duration-100 hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
+            className="hover:scale-120  hover:text-cyan-400 hover:border-b-4  duration-100 hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
           >
             Projetos
           </a>
-          <a
+          {/* <a
             href="#"
             className="hover:text-cyan-400 hover:border-b-4 duration-100  hover:drop-shadow-[0_0_0.3rem_#00B4D8]"
           >
             Contato
-          </a>
+          </a> */}
         </nav>
       </header>
 
-      <section className="mt-16 px-8  flex flex-col-reverse md:flex-row w-full  md:h-[90vh]">
-        <div className="flex md:w-[50%] items-center justify-center  ">
+      <section className="mt-16 px-8  flex flex-col-reverse lg:flex-row w-full  md:h-[90vh]">
+        <div className="flex lg:w-[50%] items-center justify-center  ">
           <div className="text-white gap-4 flex flex-col text-justify">
             <h1 className="text-4xl font-bold">
               HI, It's
@@ -139,19 +142,19 @@ export function Inicio() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-cyan-400 text-black shadow-cyan-400 border-cyan-400 border-2 cursor-pointer hover:bg-transparent font-bold hover:text-cyan-400  shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]">
+              <Button className="hover:scale-120 bg-cyan-400 text-black shadow-cyan-400 border-cyan-400 border-2 cursor-pointer hover:bg-transparent font-bold hover:text-cyan-400  shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]">
                 Baixar Curriculo
               </Button>
             </a>
           </div>
         </div>
-        <div className=" md:w-[50%]  items-center justify-center  flex mb-8 mt-8 md:mb-0 md:mt-0">
+        <div className=" lg:w-[50%]  items-center justify-center  flex mb-8 mt-8 md:mb-0 md:mt-0">
           <Image
             src="/fotoGhibi.png"
             alt="Profile"
             width={400}
             height={400}
-            className="w-[250px] md:w-[400px] rounded-full border-2 border-cyan-400 shadow-[0_0_60px_rgba(34,211,238,0.8)] hover:shadow-[0_0_25px_rgba(34,211,238,0.8)]"
+            className="w-[250px] md:w-[400px] rounded-full hover:scale-120 duration-150 border-2 border-cyan-400 shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:shadow-[0_0_90px_rgba(34,211,238,0.8)]"
           />
         </div>
       </section>
