@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import { ProjetoJava } from "./projetoJava";
 import { ProjetoCsharp } from "./projetoCsharp";
+import { ProjetoC } from "./projetoC";
 
 export function Projetos() {
   return (
@@ -43,7 +44,7 @@ export function Projetos() {
 
         <ProjetoCsharp />
 
-        <Card className="cursor-pointer w-full max-w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
+        {/* <Card className="cursor-pointer w-full max-w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
           <CardHeader>
             <CardTitle>
               <div className="flex justify-center">
@@ -54,7 +55,8 @@ export function Projetos() {
               Projetos em C
             </CardDescription>
           </CardHeader>
-        </Card>
+        </Card> */}
+        <ProjetoC />
 
         <Card className="cursor-pointer w-[300px] border-gray-500 hover:border-cyan-400 hover:shadow-[0_0_60px_rgba(34,211,238,0.8)] duration-200 hover:scale-90">
           <CardHeader>
