@@ -137,7 +137,7 @@ export function Inicio() {
       <section className="mt-16 px-8  flex flex-col-reverse lg:flex-row w-full  md:h-[90vh]">
         <div className="flex lg:w-[50%] items-center justify-center  ">
           <div className="text-white gap-4 flex flex-col text-justify">
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-2xl lg:text-5xl font-bold">
               {t("greeting")}
               <span className="text-cyan-400 drop-shadow-[0_0_0.5rem_#00B4D8] ml-2">
                 {t("name")}
