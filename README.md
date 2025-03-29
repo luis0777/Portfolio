@@ -11,7 +11,6 @@ Este é um projeto de portfólio profissional desenvolvido com Next.js 15, utili
 - [Next-intl](https://next-intl-docs.vercel.app/) para internacionalização
 - [Radix UI](https://www.radix-ui.com/) para componentes acessíveis
 - [Lucide-react](https://lucide.dev/) para ícones modernos
-- 🌙 Sistema de temas claro/escuro
 - 📱 Layout responsivo
 - ✨ Animações suaves e interativas
 
