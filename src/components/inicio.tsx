@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/select";
 import { useRouter } from "next/navigation";
 import FlagIcons from "@/assets/country-flag-icons";
+import Meteors from "./meteors";
 
 export function Inicio() {
   const [selectedValue, setSelectedValue] = React.useState("pt");
@@ -36,7 +37,9 @@ export function Inicio() {
 
   return (
     <div className="flex flex-col ">
+      <Meteors />
       <header className="text-white flex justify-between p-4 md:p-8 fixed top-0 left-0 right-0  bg-[#080808] z-10">
+      <Meteors />
         <div className="flex items-center">
           <a
             href="#"
