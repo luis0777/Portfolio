@@ -13,3 +13,35 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes meteor {
+  0% {
+    transform: rotate(215deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(215deg) translateX(-500px);
+    opacity: 0;
+  }
+}
+
+.meteor-container {
+  pointer-events: none;
+}
+
+.meteor-item {
+  animation: meteor linear infinite;
+  position: absolute;
+}
+
+.meteor-item::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  transform: translateX(50%);
+  background: linear-gradient(90deg, #00b4d8, transparent);
+}
