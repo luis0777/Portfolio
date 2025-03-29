@@ -16,6 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Meteors from "./meteors";
 
 export function ProjetoC() {
   const t = useTranslations("ProjetosC");
@@ -30,6 +31,7 @@ export function ProjetoC() {
         </span>
       </DialogTrigger>
       <DialogContent className="bg-[#080808] w-[340px] md:w-[600px] border-gray-500">
+        <Meteors />
         <DialogHeader>
           <DialogTitle className="text-white flex justify-center">
             {t("title")}

@@ -15,9 +15,9 @@ const Meteors = () => {
 
   useEffect(() => {
     // Gerar estilos aleatórios para os meteoros após a montagem do componente
-    const numberOfMeteors = 200; // Alterando a quantidade de meteoros para 500
+    const numberOfMeteors = 100; // Alterando a quantidade de meteoros para 500
     const styles: MeteorStyle[] = [...Array(numberOfMeteors)].map(() => ({
-      top: Math.random() * 1000 + "%",
+      top: Math.random() * 1000 + "vh",
       left: Math.random() * 100 + "%",
       animationDelay: Math.random() * 10 + "s",
       animationDuration: Math.random() * 3 + 2 + "s",
@@ -26,8 +26,8 @@ const Meteors = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      <div className="meteor-container absolute top-0 -left-[50%] w-[200%] h-full">
+    <div className="absolute inset-0 h-screen overflow-hidden pointer-events-none">
+      <div className="meteor-container absolute top-0 -left-[50%] w-[200%] h-screen">
         {meteorStyles.map((style, idx) => (
           <div
             key={idx}
