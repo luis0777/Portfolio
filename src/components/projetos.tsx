@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl";
 export function Projetos() {
   const t = useTranslations("Projetos");
   return (
-    <section id="projetos" className="px-8 pt-24 md:h-[90vh]">
+    <section id="projetos" className="px-8 mt-24 scroll-mt-32 pb-32 ">
       <div className="flex flex-col items-center mb-5 ">
         <h1 className="text-4xl font-bold text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
           {t("projetos")}
@@ -20,7 +20,7 @@ export function Projetos() {
         </p>
       </div>
 
-      <div className="max-w-[1500px] mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+      <div className="max-w-[1500px]  mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
         <ProjetoJava />
 
         <ProjetoCsharp />

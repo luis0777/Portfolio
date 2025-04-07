@@ -38,8 +38,8 @@ export function Inicio() {
   return (
     <div className="flex flex-col ">
       <Meteors />
-      <header className="text-white flex justify-between p-4 md:p-8 fixed top-0 left-0 right-0  bg-[#080808] z-10">
-      <Meteors />
+      <header className="text-white flex justify-between p-4  lg:p-8 fixed top-0 left-0 right-0  bg-[#080808] z-10">
+        <Meteors />
         <div className="flex items-center">
           <a
             href="#"
@@ -137,7 +137,7 @@ export function Inicio() {
         </nav>
       </header>
 
-      <section className="mt-16 px-8  flex flex-col-reverse lg:flex-row w-full  md:h-[90vh]">
+      <section className="mt-16 px-8  flex flex-col-reverse lg:flex-row w-full  lg:h-[90vh]">
         <div className="flex lg:w-[50%] items-center justify-center  ">
           <div className="text-white gap-4 flex flex-col text-justify">
             <h1 className="text-2xl lg:text-5xl font-bold">
@@ -194,13 +194,13 @@ export function Inicio() {
             </a>
           </div>
         </div>
-        <div className=" lg:w-[50%]  items-center justify-center  flex mb-8 mt-8 md:mb-0 md:mt-0">
+        <div className=" lg:w-[50%]  items-center justify-center  flex mb-8 mt-8 lg:mb-0 lg:mt-0">
           <Image
             src="/fotoGhibi.png"
             alt="Profile"
             width={400}
             height={400}
-            className="w-[250px] md:w-[400px] rounded-full hover:scale-120 duration-150 border-2 border-cyan-400 shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:shadow-[0_0_90px_rgba(34,211,238,0.8)]"
+            className="w-[250px] lg:w-[400px] rounded-full hover:scale-120 duration-150 border-2 border-cyan-400 shadow-[0_0_25px_rgba(34,211,238,0.8)] hover:shadow-[0_0_90px_rgba(34,211,238,0.8)]"
           />
         </div>
       </section>

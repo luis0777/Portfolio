@@ -5,7 +5,7 @@ import Meteors from "./meteors";
 export function Formacao() {
   const t = useTranslations("Formacao");
   return (
-    <section id="formacao" className="px-8 pt-24 md:h-[50vh]">
+    <section id="formacao" className="px-8 mt-24 lg:h-[80vh] scroll-mt-32">
       <Meteors />
       <div className="flex justify-center mb-5">
         <h1 className="text-4xl font-bold text-cyan-400 drop-shadow-[0_0_0.3rem_#00B4D8]">
